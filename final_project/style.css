@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+nav{
+    padding: 0%;
+}
+
+.carousel img {
+    height: 580px;
+    object-fit: cover;
+}
+
+.card-wrapper {
+    margin: 100px 0px 76px;
+}
+
+.card-wrapper .card {
+    margin-bottom: 24px;
+}
+
+.card-wrapper .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 990px) {
+    .carousel img {
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .card-wrapper .card-img-top {
+        height: auto;
+        object-fit: cover;
+    }
+}
+footer{
+    background-color: rgb(182, 182, 182);
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: small;
+    padding-bottom: 0%;
+}
+
+.buy-btn{
+    border-radius: 5px;
+    border-style: solid 2px;
+    background-color: rgb(45, 125, 246);
+    color: white;
+    height: 35px;
+}
+.last-page{
+    height: 95.5vh;
+}
+#thank-you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}

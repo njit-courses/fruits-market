@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Review</title>
+    
+        <link rel="stylesheet" href="review.css"> 
+        <!-- <link rel="stylesheet" href="style.css">  -->
+    </head>
+    <script src="https://use.fontawesome.com/a6f0361695.js"></script>
+<body style="height: 100vh;">
+    <div class="center-logo">
+        <a href="index.html"><img src="images/logo.png" style="height: 80px; margin-top: 15px;"></a>
+    </div>
+
+    <h2 id="fh2">YOUR REVIEW</h2>
+
+
+<form id="feedback" action="">
+  <div class="pinfo">Your Info</div>
+  
+<div class="form-group">
+  <div class="col-md-4 inputGroupContainer">
+  <div class="group">
+  <span class="addon"><i class="fa fa-user"></i></span>
+  <input  name="name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <div class="col-md-4 inputGroupContainer">
+  <div class="group">
+  <span class="addon"><i class="fa fa-envelope"></i></span>
+    <input name="email" type="email" class="form-control">
+     </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <div class="col-md-4 inputGroupContainer">
+  <div class="group">
+  <span class="addon"><i class="fa fa-globe"></i></span>
+  <input  name="URL" class="form-control"  type="url">
+    </div>
+  </div>
+</div>
+
+ <div class="pinfo">Rate our services.</div>
+  
+
+<div class="form-group">
+  <div class="col-md-4 inputGroupContainer">
+  <div class="group">
+  <span class="addon"><i class="fa fa-heart"></i></span>
+   <select class="form-control" id="rate">
+    <option value="none">Select</option>
+      <option value="1star">1</option>
+      <option value="2stars">2</option>
+      <option value="3stars">3</option>
+      <option value="4stars">4</option>
+      <option value="5stars">5</option>
+    </select>
+    </div>
+  </div>
+</div>
+
+ <div class="pinfo">Write your feedback.</div>
+  
+
+<div class="form-group">
+  <div class="col-md-4 inputGroupContainer">
+  <div class="group">
+  <span class="addon"><i class="fa fa-pencil"></i></span>
+  <textarea class="form-control" id="review" rows="3"></textarea>
+ 
+    </div>
+  </div>
+</div>
+
+ <button type="submit" class="btn btn-primary">Submit</button>
+
+
+</form>
+<footer class="site-footer" id="footer" >
+  <p class="site-footer" style="margin: 0;"></p>Copyright &copy;2023 | All Rights Reserved to NJIT</p>
+</footer>
+</body>
+
+</html>
